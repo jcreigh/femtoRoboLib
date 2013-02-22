@@ -8,6 +8,7 @@ Just a small library of some VIs I've created while programming the robot for [F
 
 ## Timer
 ![Timer](https://raw.github.com/nekojess/femtoRoboLib/master/docs/timer_example.gif)
+
 Create/update a Timer. After Timer is already running, Delay does nothing. Remember to Reset before reusing Timer. Has triggers for the beginning and end of the time period.
 
 ## Button/Switch + Conditional Increment
