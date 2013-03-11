@@ -21,8 +21,13 @@
 		</Item>
 		<Item Name="Button.vi" Type="VI" URL="../Button.vi"/>
 		<Item Name="Conditional Increment.vi" Type="VI" URL="../Conditional Increment.vi"/>
+		<Item Name="Driver Station Control Data.vi" Type="VI" URL="../Driver Station Control Data.vi"/>
 		<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="WPI_DriverStationCommDataCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationCommDataCache.vi"/>
+				<Item Name="WPI_DriverStationCommDataCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationCommDataCacheOp.ctl"/>
+			</Item>
 			<Item Name="Button Control.ctl" Type="VI" URL="../Button Control.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
