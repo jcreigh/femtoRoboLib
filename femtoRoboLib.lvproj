@@ -10,25 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Conditional Increment VIs" Type="Folder">
-			<Item Name="Conditional Increment - Double.vi" Type="VI" URL="../Conditional Increment VIs/Conditional Increment - Double.vi"/>
-			<Item Name="Conditional Increment - I32.vi" Type="VI" URL="../Conditional Increment VIs/Conditional Increment - I32.vi"/>
-			<Item Name="Conditional Increment - U32.vi" Type="VI" URL="../Conditional Increment VIs/Conditional Increment - U32.vi"/>
-		</Item>
-		<Item Name="Logic VIs" Type="Folder">
-			<Item Name="Button Logic.vi" Type="VI" URL="../Logic VIs/Button Logic.vi"/>
-			<Item Name="Timer Logic.vi" Type="VI" URL="../Logic VIs/Timer Logic.vi"/>
-		</Item>
-		<Item Name="Button.vi" Type="VI" URL="../Button.vi"/>
-		<Item Name="Conditional Increment.vi" Type="VI" URL="../Conditional Increment.vi"/>
-		<Item Name="Driver Station Control Data.vi" Type="VI" URL="../Driver Station Control Data.vi"/>
-		<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
+		<Item Name="femtoRoboLib.lvlib" Type="Library" URL="../femtoRoboLib.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_DriverStationCommDataCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationCommDataCache.vi"/>
 				<Item Name="WPI_DriverStationCommDataCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationCommDataCacheOp.ctl"/>
 			</Item>
-			<Item Name="Button Control.ctl" Type="VI" URL="../Button Control.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
