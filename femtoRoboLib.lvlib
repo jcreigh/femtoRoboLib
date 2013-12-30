@@ -14,46 +14,56 @@
 	</Item>
 	<Item Name="Logging" Type="Folder">
 		<Item Name="Controls" Type="Folder">
-			<Item Name="Log Entry - Converted.ctl" Type="VI" URL="../Logging VIs/Log Entry - Converted.ctl"/>
-			<Item Name="Log Entry Block.ctl" Type="VI" URL="../Logging VIs/Log Entry Block.ctl"/>
-			<Item Name="Log Entry.ctl" Type="VI" URL="../Logging VIs/Log Entry.ctl"/>
-			<Item Name="Log Value Cluster.ctl" Type="VI" URL="../Logging VIs/Log Value Cluster.ctl"/>
-			<Item Name="Log Value Type.ctl" Type="VI" URL="../Logging VIs/Log Value Type.ctl"/>
-			<Item Name="LoggingDevRef.ctl" Type="VI" URL="../Logging VIs/LoggingDevRef.ctl"/>
+			<Item Name="Log Entry - Converted.ctl" Type="VI" URL="../Logging VIs/Controls/Log Entry - Converted.ctl"/>
+			<Item Name="Log Entry - Full Block.ctl" Type="VI" URL="../Logging VIs/Controls/Log Entry - Full Block.ctl"/>
+			<Item Name="Log Entry.ctl" Type="VI" URL="../Logging VIs/Controls/Log Entry.ctl"/>
+			<Item Name="Log Value Cluster.ctl" Type="VI" URL="../Logging VIs/Controls/Log Value Cluster.ctl"/>
+			<Item Name="Log Value Type.ctl" Type="VI" URL="../Logging VIs/Controls/Log Value Type.ctl"/>
+			<Item Name="LoggingDevRef.ctl" Type="VI" URL="../Logging VIs/Controls/LoggingDevRef.ctl"/>
 		</Item>
 		<Item Name="Equals VIs" Type="Folder">
-			<Item Name="Logging Equals - Entries.vi" Type="VI" URL="../Logging VIs/Logging Equals - Entries.vi"/>
-			<Item Name="Logging Equals - Entry.vi" Type="VI" URL="../Logging VIs/Logging Equals - Entry.vi"/>
+			<Item Name="Logging Equals - Entries.vi" Type="VI" URL="../Logging VIs/Equals VIs/Logging Equals - Entries.vi"/>
+			<Item Name="Logging Equals - Entry.vi" Type="VI" URL="../Logging VIs/Equals VIs/Logging Equals - Entry.vi"/>
+		</Item>
+		<Item Name="Tree VIs" Type="Folder">
+			<Item Name="Logging AddEdit Tree Item.vi" Type="VI" URL="../Logging VIs/Tree VIs/Logging AddEdit Tree Item.vi"/>
+			<Item Name="Logging Build Tree.vi" Type="VI" URL="../Logging VIs/Tree VIs/Logging Build Tree.vi"/>
+			<Item Name="Logging Clear Tree.vi" Type="VI" URL="../Logging VIs/Tree VIs/Logging Clear Tree.vi"/>
+			<Item Name="Logging Delete Tree Item.vi" Type="VI" URL="../Logging VIs/Tree VIs/Logging Delete Tree Item.vi"/>
+			<Item Name="Logging Format Tree Entry.vi" Type="VI" URL="../Logging VIs/Tree VIs/Logging Format Tree Entry.vi"/>
+			<Item Name="Logging List Tree Items.vi" Type="VI" URL="../Logging VIs/Tree VIs/Logging List Tree Items.vi"/>
+			<Item Name="Logging Tree Contains.vi" Type="VI" URL="../Logging VIs/Tree VIs/Logging Tree Contains.vi"/>
+			<Item Name="Logging Tree Update Time.vi" Type="VI" URL="../Logging VIs/Tree VIs/Logging Tree Update Time.vi"/>
 		</Item>
 		<Item Name="Update VIs" Type="Folder">
-			<Item Name="Logging Update - Boolean Array.vi" Type="VI" URL="../Logging VIs/Logging Update - Boolean Array.vi"/>
-			<Item Name="Logging Update - Boolean.vi" Type="VI" URL="../Logging VIs/Logging Update - Boolean.vi"/>
-			<Item Name="Logging Update - Numeric Array.vi" Type="VI" URL="../Logging VIs/Logging Update - Numeric Array.vi"/>
-			<Item Name="Logging Update - Numeric.vi" Type="VI" URL="../Logging VIs/Logging Update - Numeric.vi"/>
-			<Item Name="Logging Update - String Array.vi" Type="VI" URL="../Logging VIs/Logging Update - String Array.vi"/>
-			<Item Name="Logging Update - String.vi" Type="VI" URL="../Logging VIs/Logging Update - String.vi"/>
+			<Item Name="Logging Update - Boolean Array.vi" Type="VI" URL="../Logging VIs/Update VIs/Logging Update - Boolean Array.vi"/>
+			<Item Name="Logging Update - Boolean.vi" Type="VI" URL="../Logging VIs/Update VIs/Logging Update - Boolean.vi"/>
+			<Item Name="Logging Update - Numeric Array.vi" Type="VI" URL="../Logging VIs/Update VIs/Logging Update - Numeric Array.vi"/>
+			<Item Name="Logging Update - Numeric.vi" Type="VI" URL="../Logging VIs/Update VIs/Logging Update - Numeric.vi"/>
+			<Item Name="Logging Update - String Array.vi" Type="VI" URL="../Logging VIs/Update VIs/Logging Update - String Array.vi"/>
+			<Item Name="Logging Update - String.vi" Type="VI" URL="../Logging VIs/Update VIs/Logging Update - String.vi"/>
 		</Item>
 		<Item Name="Logging Build Path.vi" Type="VI" URL="../Logging VIs/Logging Build Path.vi"/>
-		<Item Name="Logging Build Tree.vi" Type="VI" URL="../Logging VIs/Logging Build Tree.vi"/>
-		<Item Name="Logging Cache.vi" Type="VI" URL="../Logging VIs/Logging Cache.vi"/>
-		<Item Name="Logging Clear Tree.vi" Type="VI" URL="../Logging VIs/Logging Clear Tree.vi"/>
 		<Item Name="Logging Close.vi" Type="VI" URL="../Logging VIs/Logging Close.vi"/>
 		<Item Name="Logging Deduplicate Unsaved.vi" Type="VI" URL="../Logging VIs/Logging Deduplicate Unsaved.vi"/>
 		<Item Name="Logging Equals.vi" Type="VI" URL="../Logging VIs/Logging Equals.vi"/>
 		<Item Name="Logging Filter by Path.vi" Type="VI" URL="../Logging VIs/Logging Filter by Path.vi"/>
 		<Item Name="Logging Flatten.vi" Type="VI" URL="../Logging VIs/Logging Flatten.vi"/>
+		<Item Name="Logging Flush.vi" Type="VI" URL="../Logging VIs/Logging Flush.vi"/>
 		<Item Name="Logging Get At.vi" Type="VI" URL="../Logging VIs/Logging Get At.vi"/>
 		<Item Name="Logging Get by Name.vi" Type="VI" URL="../Logging VIs/Logging Get by Name.vi"/>
 		<Item Name="Logging Get Names.vi" Type="VI" URL="../Logging VIs/Logging Get Names.vi"/>
 		<Item Name="Logging Get Remote Log.vi" Type="VI" URL="../Logging VIs/Logging Get Remote Log.vi"/>
 		<Item Name="Logging Get Times.vi" Type="VI" URL="../Logging VIs/Logging Get Times.vi"/>
 		<Item Name="Logging GetSet Refnum.vi" Type="VI" URL="../Logging VIs/Logging GetSet Refnum.vi"/>
+		<Item Name="Logging ID Name Cache.vi" Type="VI" URL="../Logging VIs/Logging ID Name Cache.vi"/>
 		<Item Name="Logging List Logs.vi" Type="VI" URL="../Logging VIs/Logging List Logs.vi"/>
 		<Item Name="Logging Merge Cache.vi" Type="VI" URL="../Logging VIs/Logging Merge Cache.vi"/>
 		<Item Name="Logging Open.vi" Type="VI" URL="../Logging VIs/Logging Open.vi"/>
 		<Item Name="Logging Read All.vi" Type="VI" URL="../Logging VIs/Logging Read All.vi"/>
 		<Item Name="Logging Read One.vi" Type="VI" URL="../Logging VIs/Logging Read One.vi"/>
 		<Item Name="Logging Read Var.vi" Type="VI" URL="../Logging VIs/Logging Read Var.vi"/>
+		<Item Name="Logging Reading Cache.vi" Type="VI" URL="../Logging VIs/Logging Reading Cache.vi"/>
 		<Item Name="Logging Smallest Unused Log Number.vi" Type="VI" URL="../Logging VIs/Logging Smallest Unused Log Number.vi"/>
 		<Item Name="Logging Split Path.vi" Type="VI" URL="../Logging VIs/Logging Split Path.vi"/>
 		<Item Name="Logging Stringify Entry Value.vi" Type="VI" URL="../Logging VIs/Logging Stringify Entry Value.vi"/>
@@ -63,6 +73,7 @@
 		<Item Name="Logging Update.vi" Type="VI" URL="../Logging VIs/Logging Update.vi"/>
 		<Item Name="Logging Write Loop.vi" Type="VI" URL="../Logging VIs/Logging Write Loop.vi"/>
 		<Item Name="Logging Write.vi" Type="VI" URL="../Logging VIs/Logging Write.vi"/>
+		<Item Name="Logging Writing Cache.vi" Type="VI" URL="../Logging VIs/Logging Writing Cache.vi"/>
 		<Item Name="LoggingRefNum Registry Get.vi" Type="VI" URL="../Logging VIs/LoggingRefNum Registry Get.vi"/>
 		<Item Name="LoggingRefNum Registry Set.vi" Type="VI" URL="../Logging VIs/LoggingRefNum Registry Set.vi"/>
 	</Item>
