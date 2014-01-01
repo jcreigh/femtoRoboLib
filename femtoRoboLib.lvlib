@@ -82,6 +82,10 @@
 		<Item Name="Button Logic.vi" Type="VI" URL="../Logic VIs/Button Logic.vi"/>
 		<Item Name="Timer Logic.vi" Type="VI" URL="../Logic VIs/Timer Logic.vi"/>
 	</Item>
+	<Item Name="Menus" Type="Folder">
+		<Item Name="dir.mnu" Type="Document" URL="../Menus/dir.mnu"/>
+		<Item Name="logging.mnu" Type="Document" URL="../Menus/logging.mnu"/>
+	</Item>
 	<Item Name="Build Robot IP Address.vi" Type="VI" URL="../Build Robot IP Address.vi"/>
 	<Item Name="Button.vi" Type="VI" URL="../Button.vi"/>
 	<Item Name="Conditional Increment.vi" Type="VI" URL="../Conditional Increment.vi"/>
